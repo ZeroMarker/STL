@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
-
+#include "Sequence Container/sequence.h"
+#include "Associative Container/associative.h"
 // first template
 template <typename T>
 T square(T x) {
@@ -81,6 +82,10 @@ int main() {
         std::cout << *it << '\n';
     }
 
+
+    sequence();
+    associative();
+    // TODO write some code
     std::cout << "Hello, World!" << '\n';
     return 0;
 }
