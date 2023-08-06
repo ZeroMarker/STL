@@ -10,7 +10,7 @@
 #include "list.h"
 
 int sequence() {
-    std::cout << "Sequence Container" << '\n';
+    std::cout << "Sequence" << '\n';
     vector();
     deque();
     array();

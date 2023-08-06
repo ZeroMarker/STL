@@ -8,7 +8,7 @@
 #include "set.h"
 
 int associative() {
-    std::cout << "Associative Container" << '\n';
+    std::cout << "Associative" << '\n';
     map();
     multiset();
     set();

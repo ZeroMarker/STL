@@ -1,7 +1,8 @@
 #include <iostream>
 #include <vector>
-#include "Sequence Container/sequence.h"
-#include "Associative Container/associative.h"
+#include "Sequence/sequence.h"
+#include "Associative/associative.h"
+
 // first template
 template <typename T>
 T square(T x) {
