@@ -10,8 +10,10 @@ int set() {
     std::set<int> set1 = {3, 6, 8};
     set1.insert(3);
     set1.insert(7);
-    for(auto itr: set1)
+    std::cout << "Set" << '\n';
+    for(auto itr: set1) {
         std::cout << itr << '\n';
+    }
     auto it = set1.find(7);
     std::pair<std::set<int>::iterator, bool> ret;
     ret = set1.insert(6);

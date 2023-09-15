@@ -7,11 +7,13 @@
 #include "map.h"
 
 int map() {
+    std::cout << "Map" << '\n';
     std::map<char, int> map1;
     map1.insert(std::pair('a', 100));
     auto it = map1.find('a');
-    for(auto itr: map1)
+    for(auto itr: map1) {
         std::cout << itr.first << "=>" << itr.second << '\n';
+    }
 
     return 0;
 }

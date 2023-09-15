@@ -3,8 +3,11 @@
 //
 
 #include <set>
+#include <iostream>
 #include "multiset.h"
 
 int multiset() {
+    std::cout << "Multiset" << '\n';
     std::multiset<int> multiset1;
+    return 0;
 }

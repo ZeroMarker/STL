@@ -3,6 +3,7 @@
 //
 
 #include "list.h"
+#include <algorithm>
 #include <list>
 #include <iostream>
 int list() {
