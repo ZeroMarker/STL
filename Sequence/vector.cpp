@@ -7,6 +7,7 @@
 #include "vector.h"
 
 int vector() {
+    std::cout << "## vector" << '\n';
     std::vector<int> vec;
     vec.push_back(2);
     vec.push_back(4);
@@ -18,6 +19,7 @@ int vector() {
     for(auto it = itr1; it != itr2; ++it) {
         std::cout << *it << '\n';
     }
+    // sort
     std::sort(itr1, itr2);
     for(auto it = itr1; it != itr2; ++it) {
         std::cout << *it << '\n';
@@ -31,8 +33,6 @@ int vector() {
     int* p = &vec[0];
     p[2] = 6;
     std::cout << vec[2] << '\n';
-
-
 
     return 0;
 }
